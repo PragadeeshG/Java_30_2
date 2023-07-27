@@ -1,0 +1,47 @@
+package com.test1;
+
+// POJO Class
+public class Laptop {
+// Variables
+	private String brand;
+	private String hardDiskType;
+	private int hardDiskCapacity;
+
+// Default Constructor
+	public Laptop() {
+		hardDiskCapacity = 2000;
+	}
+
+// Parameterised Constructor
+	public void Laptop(String X, String Y, int Z) {
+		brand = X;
+		hardDiskType = Y;
+		hardDiskCapacity = Z;
+	}
+
+// Public Getters and Setters
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setHardDiskType(String hardDiskType) {
+		this.hardDiskType = hardDiskType;
+	}
+
+	public String getHardDiskType() {
+		return hardDiskType;
+	}
+
+	public void setHardDiskCapacity(String hardDiskCapacity) {
+		this.hardDiskCapacity = this.hardDiskCapacity;
+	}
+
+	public int getHardDiskCapacity() {
+		return hardDiskCapacity;
+	}
+
+}

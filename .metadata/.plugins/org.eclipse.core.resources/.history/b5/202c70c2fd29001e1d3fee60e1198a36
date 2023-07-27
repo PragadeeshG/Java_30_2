@@ -1,0 +1,15 @@
+package com.test1;
+
+public class Main2 {
+// Main Method
+	public static void main(String[] args) {
+    
+	}
+// Own Method
+	public String getNewLaptop(String A, String B) {
+		Laptop s1 = new Laptop();
+		s1.setBrand(brand);
+		s1.setHardDiskType(hardDiskType);
+		return s1;
+	}
+}
